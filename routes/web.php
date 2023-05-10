@@ -18,7 +18,8 @@ Route::get('/', function () {
 
     $data = [
         'dbfooter'=> config('dbfooter'),
-        'dbHeader'=> config('dbheader')
+        'dbHeader'=> config('dbheader'),
+        'dbmain'=> config('maincontent')
     ];
 
     return view('home', $data);
