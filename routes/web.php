@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('home');
+
+
+    $data = [
+        'dbfooter'=> config('dbfooter'),
+        'dbHeader'=> config('dbheader')
+    ];
+
+    return view('home', $data);
+});

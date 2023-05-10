@@ -2,7 +2,6 @@
 
 
     return [
-        'FooterNav' => [
             [
                 'Name'=> "DC COMICS",
                 'NavElement'=> ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"]
@@ -19,5 +18,4 @@
                 'Name'=> "SITES",
                 'NavElement'=> ["DC", "MAD Magazine", "DC Kid", "DC Universe", "DC Power Visa"]
             ],
-        ]
-        ];
+    ];
